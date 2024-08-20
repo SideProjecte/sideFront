@@ -41,7 +41,7 @@ function App() {
       products.forEach((_, index) => {
         setTimeout(() => {
           setVisibleProducts(prev => [...prev, index]);
-        }, index * 400); // 200ms 간격으로 각 제품이 나타나도록 설정
+        }, index * 400); // 200ms 간격으로 각 제품이 나타나도록 설정//
       });
     } else {
       setVisibleProducts([]);
